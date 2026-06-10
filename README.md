@@ -1,29 +1,30 @@
-# 🎯 Task 4: Object Detection and Tracking using YOLOv8
+# Task 4: Object Detection and Tracking using YOLOv8
 
-## 📌 Project Description
-This project is a real-time object detection and tracking system using YOLOv8 and OpenCV.  
-It detects objects from webcam/video feed and assigns tracking IDs to each detected object.
+## Description
 
----
+This project performs real-time object detection and tracking using YOLOv8 and OpenCV. The system detects objects from a webcam feed, draws bounding boxes around them, and assigns tracking IDs to maintain object identity across frames.
 
-## 🚀 Features
-- Real-time webcam video processing
-- Object detection using YOLOv8 (pretrained model)
-- Bounding box and label display
-- Object tracking with unique IDs
-- Live video output
+## Features
 
----
+* Real-time webcam input
+* Object detection using YOLOv8
+* Bounding boxes and labels
+* Real-time object tracking
+* Unique tracking IDs
 
-## 🛠️ Technologies Used
-- Python
-- OpenCV
-- Ultralytics YOLOv8
-- FilterPy (for tracking support)
+## Technologies Used
 
----
+* Python
+* OpenCV
+* YOLOv8 (Ultralytics)
 
-## 📦 Installation
+## Run
 
 ```bash
-pip install opencv-python ultralytics filterpy
+pip install ultralytics opencv-python
+python task4_object_tracking.py
+```
+
+## Output
+
+Detected objects are displayed with labels, bounding boxes, and tracking IDs in real time.
